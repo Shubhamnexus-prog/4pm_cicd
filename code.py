@@ -13,8 +13,7 @@ sns.set(style='white')
 import pandas as pd
 
 dataset = pd.read_csv(
-    r'E:\full stack data science\cicd pipeline\iris.csv'
-)
+    iris.csv')
 
 print(dataset.head())
 # Feature names (Ensure no extra spaces or parentheses)
