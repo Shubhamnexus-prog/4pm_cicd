@@ -12,8 +12,7 @@ sns.set(style='white')
 
 import pandas as pd
 
-dataset = pd.read_csv(
-    iris.csv')
+dataset = pd.read_csv('iris.csv')
 
 print(dataset.head())
 # Feature names (Ensure no extra spaces or parentheses)
